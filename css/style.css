@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.container{
+    width: 1440px;
+    height: 5657px;
+    margin: auto;
+}
+.navbar{
+    width: 1440px;
+    height: 96px;
+
+}
+.nav-list{
+    margin: auto;
+    width: 1312px;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #230B59;
+}
+.nav-link+.nav-link{
+    margin-left: 48px;
+}
+
+.btn{
+    padding: 12px 20px;
+    background: none;
+    border-color: #4840BB;
+    color: #4840BB;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    border: none;
+}
+.btn:hover{
+    background: rgb(217, 216, 216);
+    cursor: pointer;
+}
+.get-btn{
+    background-color: #4840BB;
+    color: #fff;
+}
+.btn:focus{
+    box-shadow: 0px 0px 1px 3px #5d52f4;
+}
+.get-btn:hover{
+    background: #7a71f4;
+}
+.hero{
+    margin: auto;
+    width: 1440px;
+    height: 560px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-text{
+    width: 520px;
+    height: 280px;
+    color: #230B59;
+}
+.hero-title{
+    width: 305px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+}
+.hero-para{
+    width: 250px;
+    margin: 40px 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+.sub-hero{
+    margin: auto;
+    width: 1440px;
+    height: 135px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #230B59;
+}
+.info-div{
+    display: flex;
+}
+.investing{
+    margin: auto;
+    width: 1152px;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #230B59;
+}
+.investing-text{
+    width: 363px;
+    height: 425px;
+}
+.investing-title{
+    width: 363px;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 54px;
+    letter-spacing: 3px;
+}
+.investing-para{
+    width: 363px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 38px;
+}
+.investing-btn{
+    margin-left: 32px;
+}
+.investing-card{
+    margin: -240px 0 0 -160px;
+    width: 240px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+}
+.investing-card-item{
+    padding-top: 12px;
+    margin-left: 12px;
+    width: 216px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    line-height: 16px;
+}
+.investing-card-para{
+    margin: 8px 0 0 12px;
+    width: 197px;
+}
+.investing-img-card{
+    margin: 77px 0 0 -260px;
+    width: 300px;
+    height: 97px;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+}
+.investing-img-para{
+    margin: 8px 0 0 12px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+.cash{
+    margin: auto;
+    width: 1280px;
+    height: 750px;
+    display: flex;
+    align-items:  center;
+    justify-content: space-around;
+}
+.cash-img{
+    margin: 129px -154px 0 0;
+}
+.cash-txt{
+    width: 363px;
+    height: 425px;
+    color: #230B59;
+    font-weight: 400;
+}
+.cash-title{
+    font-size: 49px;
+    line-height: 54px;
+    letter-spacing: 3px;
+}
+.cash-para{
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.saving{
+    width: 1440px;
+    height: 576px;
+    background: #4840BB;
+    display: flex;
+}
+.saving-txt{
+    color: #fff;
+    width: 384px;
+    height: 380px;
+    margin: 98px 152px 0 208px;
+}
+.saving-title{
+    width: 303px;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 54px;
+    letter-spacing: 3px;
+}
+.saving-para{
+    width: 380px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.saving-img{
+    margin-top: 25px;
+}
+.testimonial{
+    width: 1440px;
+    height: 563px;
+    background: #230B59;
+}
+.cards{
+    margin: -300px auto 0 auto;
+    width: 1232px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between
+}
+.card{
+    width: 400px;
+    height: 450px;
+    background-color: #fff;
+    color: #230B59;
+    border-radius: 6px;
+}
+.card-name{
+    margin:48px 0 0 37px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+.card-title{
+    width: 355px;
+    margin: 32px 0 20px 37px;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 42px;
+    letter-spacing: 1.26px;
+}
+.card-founder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 37px;
+}
+.founder-margin{
+    margin-top: 70px;
+}
+.margin{
+    margin-top:230px;
+}
+.bold{
+    font-weight: 700;
+}
+.earn-section {
+    margin: auto;
+}
+.earn-img{
+    margin: 9px 0 57px 421px;
+}
+.earn-para {
+    margin: auto;
+    width: 911px;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #230B59;
+}
+.earn-para-bold {
+    font-weight: 700;
+}
+.earn-btn{
+    margin: 48px 0 0 660px;
+}
+.sponsors {
+    margin: 96px auto 0 auto;
+}
+.sponsors-para {
+    width: 117px;
+    margin: auto;
+}
+.sponsors-div {
+    margin: 25px auto 130px auto;
+    width: 1184px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer{
+    width: 1440px;
+    height: 830px;
+    background: #18172B;
+}
+.foot-desc{
+    margin: auto;
+    padding-top: 65px;
+    width: 1344px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-nav {
+    list-style: none;
+    width: 624px;
+    height: 145px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+}
+.foot-nav-list {
+    width: 115px;
+    height: 145px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.foot-nav-item {
+    width: 144px;
+}
+.foot-line{
+    margin: 33px auto;
+    width: 1344px;
+}
+.foot-para{
+    margin-left: 48px;
+    width: 1344px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #B7B7C0;
+}
+.foot-para+.foot-para{
+    margin-top: 15px;
+}
